@@ -1,4 +1,4 @@
-This directory contains the code for the experiments in the paper.
+This directory contains the code for the experiments in the paper "Fundamental Limitations of Alignment in Large Language Models".
 
 1) behavior_expectation_misalignment_graphs - used to create the figures that demonstrate misalignment of an RLHF model and a pretrained model with our prompting method in the empirical section.
 - misalignment_pretrained.py / misalignmend_RHLF.py - generates prompts from a proxy negative component for agreeableness and anti-immigration and generates text from the original model when conditioned upon these prompts to check the alignment of the model.
